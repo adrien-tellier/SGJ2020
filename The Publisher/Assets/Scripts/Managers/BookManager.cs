@@ -24,7 +24,9 @@ public class BookManager : MonoBehaviour
     #region PlayerChoice
 
     [SerializeField]
-    private SO_Color ChoosedColor = null;
+    private SO_Color SelectedColor = null;
+    [SerializeField]
+    private SO_Category SelectedCategory = null;
 
     #endregion
 
@@ -47,7 +49,7 @@ public class BookManager : MonoBehaviour
         BackwardCover.GetComponent<BackwardCover>().ChangeCurrentBook(CurrentBook);
 
 		CoverColorImage = GetComponent<Image>();
-        CoverColorImage.color = ChoosedColor.Color;
+        CoverColorImage.color = SelectedColor.Color;
 	}
 
     // Update is called once per frame
@@ -74,11 +76,16 @@ public class BookManager : MonoBehaviour
         BackwardCover.GetComponent<BackwardCover>().ChangeCurrentBook(CurrentBook);
     }
 
-    public void SetChoosedColor(SO_Color NewChoosedColor)
+    public void SetSelectedColor(SO_Color NewColor)
     {
-        ChoosedColor = NewChoosedColor;
-        CoverColorImage.color = ChoosedColor.Color;
+        SelectedColor = NewColor;
+        CoverColorImage.color = SelectedColor.Color;
     }
+
+    public void SetSelectedCategory(SO_Category NewCategory)
+	{
+        SelectedCategory = NewCategory;
+	}
 
     #endregion
 }

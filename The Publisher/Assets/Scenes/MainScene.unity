@@ -3516,6 +3516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbe825152abe06a499b4a316ae03441d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BookMgr: {fileID: 2118675915}
   SelectedCategory: {fileID: 11400000, guid: 9f2c4bc8dc2b4bc419b46e94d7324c88, type: 2}
   ScrollView: {fileID: 1984560816}
   SelectedCategoryText: {fileID: 758112425}
@@ -6031,4 +6032,5 @@ MonoBehaviour:
   CurrentBook: {fileID: 11400000, guid: f6d706b6f3dcb8b428c74b293400f705, type: 2}
   FrontCover: {fileID: 30111356}
   BackwardCover: {fileID: 1164282952}
-  ChoosedColor: {fileID: 11400000, guid: 2e9609f5624ab32498fd743386a64059, type: 2}
+  SelectedColor: {fileID: 11400000, guid: 2e9609f5624ab32498fd743386a64059, type: 2}
+  SelectedCategory: {fileID: 11400000, guid: 9f2c4bc8dc2b4bc419b46e94d7324c88, type: 2}

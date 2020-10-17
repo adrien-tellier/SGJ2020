@@ -9,6 +9,9 @@ public class CategorySelector : MonoBehaviour
     #region Variables
 
     [SerializeField]
+    private BookManager BookMgr = null;
+
+    [SerializeField]
     private SO_Category SelectedCategory = null;
 
     [SerializeField]
@@ -52,6 +55,7 @@ public class CategorySelector : MonoBehaviour
         SelectedCategory = NewCategory;
         SelectedCategoryText.text = SelectedCategory.Name;
         Description.text = SelectedCategory.Description;
+        BookMgr.SetSelectedCategory(SelectedCategory);
     }
 
     #endregion
