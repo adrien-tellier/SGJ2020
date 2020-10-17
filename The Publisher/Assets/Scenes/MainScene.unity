@@ -6119,6 +6119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Duration: 10
+  GameMgr: {fileID: 1865417791}
 --- !u!114 &1856026027
 MonoBehaviour:
   m_ObjectHideFlags: 0
