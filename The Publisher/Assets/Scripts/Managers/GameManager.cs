@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     {
         BookMgr = GetComponentInChildren<BookManager>();
         ShuffleBooksPool();
+        BookMgr.SetCurrentBook(BooksPool[CurrentBookID]);
     }
 
     // Update is called once per frame

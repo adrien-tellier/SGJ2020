@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
+[RequireComponent(typeof(Image))]
 public class BookManager : MonoBehaviour
 {
     #region Variables
@@ -9,10 +11,22 @@ public class BookManager : MonoBehaviour
     [SerializeField]
     private SO_Book CurrentBook = null;
 
+	    #region Cover
+
+	    [SerializeField]
+        private GameObject FrontCover = null;
+        [SerializeField]
+        private GameObject BackwardCover = null;
+        private Image CoverColorImage = null;
+
+    #endregion
+
+    #region PlayerChoice
+
     [SerializeField]
-    private GameObject FrontCover = null;
-    [SerializeField]
-    private GameObject BackwardCover = null;
+    private SO_Color ChoosedColor = null;
+
+    #endregion
 
     private bool IsFront = true;
 
@@ -32,12 +46,14 @@ public class BookManager : MonoBehaviour
         FrontCover.GetComponent<FrontCover>().ChangeCurrentBook(CurrentBook);
         BackwardCover.GetComponent<BackwardCover>().ChangeCurrentBook(CurrentBook);
 
-    }
+		CoverColorImage = GetComponent<Image>();
+        CoverColorImage.color = ChoosedColor.Color;
+	}
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     #endregion
@@ -56,6 +72,12 @@ public class BookManager : MonoBehaviour
         CurrentBook = NewBook;
         FrontCover.GetComponent<FrontCover>().ChangeCurrentBook(CurrentBook);
         BackwardCover.GetComponent<BackwardCover>().ChangeCurrentBook(CurrentBook);
+    }
+
+    public void SetChoosedColor(SO_Color NewChoosedColor)
+    {
+        ChoosedColor = NewChoosedColor;
+        CoverColorImage.color = ChoosedColor.Color;
     }
 
     #endregion
