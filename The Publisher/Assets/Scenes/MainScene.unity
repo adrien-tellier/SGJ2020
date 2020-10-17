@@ -153,6 +153,7 @@ RectTransform:
   m_Children:
   - {fileID: 1645223283}
   - {fileID: 1471496514}
+  - {fileID: 54597777}
   m_Father: {fileID: 2118675912}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -418,11 +419,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54597776}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2118675912}
+  m_Father: {fileID: 30111357}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.1, y: 0.05}
@@ -1243,7 +1244,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 259556192}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2118675915}
+        m_MethodName: SetSelectedIllustration
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: d36cb8e9dacf5664ea275a2e16de2abd,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: SO_Illustration, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &259556192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2872,7 +2885,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 890792365}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2118675915}
+        m_MethodName: SetSelectedIllustration
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: SO_Illustration, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &890792365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3876,7 +3901,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1253873863}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2118675915}
+        m_MethodName: SetSelectedIllustration
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 734c508f6a451994387fef552649049c,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: SO_Illustration, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1253873863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5246,7 +5283,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1823298903}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2118675915}
+        m_MethodName: SetSelectedIllustration
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 858d0e05cbe99cd43a1ed0a4b62eec17,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: SO_Illustration, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1823298903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6661,7 +6710,6 @@ RectTransform:
   m_Children:
   - {fileID: 30111357}
   - {fileID: 1164282953}
-  - {fileID: 54597777}
   m_Father: {fileID: 1865417790}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
