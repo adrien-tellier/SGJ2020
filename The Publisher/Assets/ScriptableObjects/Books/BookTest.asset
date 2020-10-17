@@ -15,3 +15,9 @@ MonoBehaviour:
   Title: Title
   Author: Author
   Summary: Summary
+  Categories:
+  - {fileID: 11400000, guid: da5b8df75ff24d34981a01c1835b58f9, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 3898b5c4f8dbf7e41977ddfef318c2b3, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: d36cb8e9dacf5664ea275a2e16de2abd, type: 2}

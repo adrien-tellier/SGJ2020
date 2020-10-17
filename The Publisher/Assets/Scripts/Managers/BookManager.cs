@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,6 +14,8 @@ public class BookManager : MonoBehaviour
 
 	    #region Cover
 
+        [Header("Cover")]
+
 	    [SerializeField]
         private GameObject FrontCover = null;
         [SerializeField]
@@ -21,18 +24,37 @@ public class BookManager : MonoBehaviour
         [SerializeField]
         private Image Illustration = null;
 
+        #endregion
+
+        #region PlayerChoice
+
+        [Header("Player Choice")]
+
+        [SerializeField]
+        private SO_Category SelectedCategory = null;
+        [SerializeField]
+        private SO_Color SelectedColor = null;
+        [SerializeField]
+        private SO_Illustration SelectedIllustration = null;
+
+        [SerializeField]
+        private SO_Category DefaultCategory = null;
+        [SerializeField]
+        private SO_Color DefaultColor = null;
+        [SerializeField]
+        private SO_Illustration DefaultIllustration = null;
+
     #endregion
 
-    #region PlayerChoice
+    #region Scores
 
-    [SerializeField]
-    private SO_Color SelectedColor = null;
-    [SerializeField]
-    private SO_Category SelectedCategory = null;
-    [SerializeField]
-    private SO_Illustration SelectedIllustration = null;
+    [Header("Scores")]
 
-    #endregion
+        [Tooltip("Scores according to the number of good answers")]
+        [SerializeField]
+        private uint[] Scores = { 0, 10, 30, 80 };
+
+        #endregion
 
     private bool IsFront = true;
 
@@ -101,6 +123,26 @@ public class BookManager : MonoBehaviour
         else
             Illustration.color = new Color(1, 1, 1, 1);
     }
+
+    public uint GetBookScore()
+	{
+        uint score = 0;
+        if (Array.Find(CurrentBook.Categories, element => element == SelectedCategory))
+            score++;
+        if (Array.Find(CurrentBook.Colors, element => element == SelectedColor))
+            score++;
+        if (Array.Find(CurrentBook.Illustrations, element => element == SelectedIllustration))
+            score++;
+
+        return score;
+	}
+
+    public void ResetSelection()
+	{
+        SetSelectedCategory(DefaultCategory);
+        SetSelectedColor(DefaultColor);
+        SetSelectedIllustration(DefaultIllustration);
+	}
 
     #endregion
 }

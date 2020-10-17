@@ -629,7 +629,29 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1865417791}
+        m_MethodName: UpdateScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1865417791}
         m_MethodName: NextBook
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1852877679}
+        m_MethodName: UpdateScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5800,6 +5822,98 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848347588}
   m_CullTransparentMesh: 0
+--- !u!1 &1852877675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1852877676}
+  - component: {fileID: 1852877678}
+  - component: {fileID: 1852877677}
+  - component: {fileID: 1852877679}
+  m_Layer: 5
+  m_Name: ScoreText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1852877676
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852877675}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1865417790}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.82, y: 0.82}
+  m_AnchorMax: {x: 0.97, y: 0.97}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1852877677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852877675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 71
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 71
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 0 pts
+--- !u!222 &1852877678
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852877675}
+  m_CullTransparentMesh: 0
+--- !u!114 &1852877679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852877675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3fc98d81e9c5340a9274e69ee212eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameMgr: {fileID: 1865417791}
 --- !u!1 &1865417786
 GameObject:
   m_ObjectHideFlags: 0
@@ -5895,6 +6009,7 @@ RectTransform:
   - {fileID: 2118675912}
   - {fileID: 1620469555}
   - {fileID: 75470889}
+  - {fileID: 1852877676}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5918,9 +6033,6 @@ MonoBehaviour:
   BooksPool:
   - {fileID: 11400000, guid: f6d706b6f3dcb8b428c74b293400f705, type: 2}
   - {fileID: 11400000, guid: 8963e7459e087554ab618aad28c42c82, type: 2}
-  - {fileID: 11400000, guid: 326dadeb7abddca48b1b43ed22025abf, type: 2}
-  - {fileID: 11400000, guid: 9e4ac273eb72cad4e952e052be500d1a, type: 2}
-  - {fileID: 11400000, guid: 1eabdce9a78b95f42a2a4da5548fe5f5, type: 2}
 --- !u!1 &1881097859
 GameObject:
   m_ObjectHideFlags: 0
@@ -6244,7 +6356,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1956368329
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6771,7 +6883,12 @@ MonoBehaviour:
   FrontCover: {fileID: 30111356}
   BackwardCover: {fileID: 1164282952}
   Illustration: {fileID: 54597778}
-  SelectedColor: {fileID: 11400000, guid: 2e9609f5624ab32498fd743386a64059, type: 2}
   SelectedCategory: {fileID: 11400000, guid: 9f2c4bc8dc2b4bc419b46e94d7324c88, type: 2}
+  SelectedColor: {fileID: 11400000, guid: 2e9609f5624ab32498fd743386a64059, type: 2}
   SelectedIllustration: {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f,
     type: 2}
+  DefaultCategory: {fileID: 11400000, guid: 9f2c4bc8dc2b4bc419b46e94d7324c88, type: 2}
+  DefaultColor: {fileID: 11400000, guid: 2e9609f5624ab32498fd743386a64059, type: 2}
+  DefaultIllustration: {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f,
+    type: 2}
+  Scores: 000000000a0000001e00000050000000

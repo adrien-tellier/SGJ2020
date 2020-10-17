@@ -7,16 +7,27 @@ public class GameManager : MonoBehaviour
     #region Variables
 
     [SerializeField]
-    SO_Book[] BooksPool = { };
+    private SO_Book[] BooksPool = { };
 
-    BookManager BookMgr;
-    int CurrentBookID = 0;
-	#endregion
+    private BookManager BookMgr;
+    private int CurrentBookID = 0;
+    private uint Score = 0;
 
-	#region Unity Methods
+    #endregion
 
-	// Start is called before the first frame update
-	void Start()
+    #region Properties
+
+    public uint GetScore()
+	{
+        return Score;
+	}
+
+    #endregion
+
+    #region Unity Methods
+
+    // Start is called before the first frame update
+    void Start()
     {
         BookMgr = GetComponentInChildren<BookManager>();
         ShuffleBooksPool();
@@ -56,5 +67,11 @@ public class GameManager : MonoBehaviour
         BookMgr.SetCurrentBook(BooksPool[CurrentBookID]);
 	}
 
-    #endregion
+    public void UpdateScore()
+	{
+        Score += BookMgr.GetBookScore();
+        Debug.Log(Score);
+	}
+
+	#endregion
 }

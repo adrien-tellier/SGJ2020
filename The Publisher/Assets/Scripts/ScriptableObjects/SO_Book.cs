@@ -12,6 +12,12 @@ public class SO_Book : ScriptableObject
     public String Author = "Author";
     public String Summary = "Summary";
 
+    [Header("Validation")]
+
+    public SO_Category[] Categories = { null };
+    public SO_Color[] Colors = { null };
+    public SO_Illustration[] Illustrations = { null };
+
     #endregion
 
     #region Unity Methods
