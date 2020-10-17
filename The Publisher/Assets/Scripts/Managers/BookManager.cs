@@ -18,6 +18,8 @@ public class BookManager : MonoBehaviour
         [SerializeField]
         private GameObject BackwardCover = null;
         private Image CoverColorImage = null;
+        [SerializeField]
+        private Image Illustration = null;
 
     #endregion
 
@@ -27,6 +29,8 @@ public class BookManager : MonoBehaviour
     private SO_Color SelectedColor = null;
     [SerializeField]
     private SO_Category SelectedCategory = null;
+    [SerializeField]
+    private SO_Illustration SelectedIllustration = null;
 
     #endregion
 
@@ -50,6 +54,7 @@ public class BookManager : MonoBehaviour
 
 		CoverColorImage = GetComponent<Image>();
         CoverColorImage.color = SelectedColor.Color;
+        Illustration.color = new Color(0, 0, 0, 0);
 	}
 
     // Update is called once per frame
@@ -86,6 +91,16 @@ public class BookManager : MonoBehaviour
 	{
         SelectedCategory = NewCategory;
 	}
+
+    public void SetSelectedIllustration(SO_Illustration NewIllustration)
+	{
+        SelectedIllustration = NewIllustration;
+        Illustration.sprite = SelectedIllustration.Sprite;
+        if (Illustration.sprite == null)
+            Illustration.color = new Color(0, 0, 0, 0);
+        else
+            Illustration.color = new Color(1, 1, 1, 1);
+    }
 
     #endregion
 }
