@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
 	{
         if (CurrentBookID > BooksPool.Length - 2)
         {
-            Debug.Log("EndGame");
+            EndGame();
             return;
         }
 
@@ -73,5 +73,10 @@ public class GameManager : MonoBehaviour
         Debug.Log(Score);
 	}
 
-	#endregion
+    public void EndGame()
+	{
+        Debug.Log("EndGame");
+    }
+
+    #endregion
 }
