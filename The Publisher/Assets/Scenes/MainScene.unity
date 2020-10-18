@@ -667,6 +667,29 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2118675915}
+        m_MethodName: ResetSelection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1254247459}
+        m_MethodName: SetSelected
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9f2c4bc8dc2b4bc419b46e94d7324c88,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: SO_Category, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &75470891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2183,7 +2206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f32903ab5ad6d4db842ed9b1a4d8c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: {fileID: 11400000, guid: f8bacf08f2ca52c4eb27e7b37ab823b3, type: 2}
+  Color: {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
 --- !u!114 &511056311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2231,7 +2254,7 @@ MonoBehaviour:
         m_MethodName: SetSelectedColor
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: f8bacf08f2ca52c4eb27e7b37ab823b3,
+          m_ObjectArgument: {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: SO_Color, Assembly-CSharp
           m_IntArgument: 0
@@ -7675,7 +7698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f32903ab5ad6d4db842ed9b1a4d8c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  Color: {fileID: 11400000, guid: f8bacf08f2ca52c4eb27e7b37ab823b3, type: 2}
 --- !u!114 &1726104455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7723,7 +7746,7 @@ MonoBehaviour:
         m_MethodName: SetSelectedColor
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1,
+          m_ObjectArgument: {fileID: 11400000, guid: f8bacf08f2ca52c4eb27e7b37ab823b3,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: SO_Color, Assembly-CSharp
           m_IntArgument: 0
@@ -10289,11 +10312,11 @@ MonoBehaviour:
   BackwardCover: {fileID: 1164282952}
   Illustration: {fileID: 54597778}
   SelectedCategory: {fileID: 11400000, guid: 9f2c4bc8dc2b4bc419b46e94d7324c88, type: 2}
-  SelectedColor: {fileID: 11400000, guid: 2e9609f5624ab32498fd743386a64059, type: 2}
+  SelectedColor: {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
   SelectedIllustration: {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f,
     type: 2}
   DefaultCategory: {fileID: 11400000, guid: 9f2c4bc8dc2b4bc419b46e94d7324c88, type: 2}
-  DefaultColor: {fileID: 11400000, guid: 2e9609f5624ab32498fd743386a64059, type: 2}
+  DefaultColor: {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
   DefaultIllustration: {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f,
     type: 2}
   Scores: 000000000a0000001e00000050000000
