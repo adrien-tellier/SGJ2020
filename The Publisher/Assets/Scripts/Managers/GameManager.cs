@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +13,13 @@ public class GameManager : MonoBehaviour
     private BookManager BookMgr;
     private int CurrentBookID = 0;
     private uint Score = 0;
+
+    [SerializeField]
+    private GameObject GUIPanel = null;
+    [SerializeField]
+    private GameObject EndGamePanel = null;
+    [SerializeField]
+    private UIScore EndGameScore = null;
 
     #endregion
 
@@ -75,8 +83,24 @@ public class GameManager : MonoBehaviour
 
     public void EndGame()
 	{
-        Debug.Log("EndGame");
+        GUIPanel.SetActive(false);
+        EndGamePanel.SetActive(true);
+        EndGameScore.UpdateScore();
     }
+
+    public void QuitGame()
+	{
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
+    }
+
+    public void LoadLevel(string SceneName)
+	{
+        SceneManager.LoadScene(SceneName);
+	}
 
     #endregion
 }
