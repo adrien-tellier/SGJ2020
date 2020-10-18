@@ -15,8 +15,9 @@ public class Timer : MonoBehaviour
     [SerializeField]
     GameManager GameMgr = null;
 
-    bool isFinished = false;
-
+    bool IsRunning = false;
+    bool IsFinished = false;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -32,12 +33,22 @@ public class Timer : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-        RemainingTime = Mathf.Max(Duration - Time.timeSinceLevelLoad, 0);
-        TimerText.text = ((int)RemainingTime).ToString() + " s";
-        if (!isFinished && RemainingTime <= 0f)
+        if (IsRunning)
         {
-            isFinished = true;
+            RemainingTime = Mathf.Max(RemainingTime - Time.fixedDeltaTime, 0);
+            TimerText.text = ((int)RemainingTime).ToString() + " s";
+        }
+
+        if (!IsFinished && RemainingTime <= 0f)
+        {
+            IsFinished = true;
+            IsRunning = false;
             GameMgr.EndGame();
         }
+    }
+
+    public void StartTimer(bool Start)
+	{
+        IsRunning = Start;
 	}
 }

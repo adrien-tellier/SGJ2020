@@ -689,6 +689,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1856026025}
+        m_MethodName: StartTimer
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &75470891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4575,7 +4586,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.9}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.0000377, y: 0}
+  m_AnchoredPosition: {x: 3.0000305, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &962435039
@@ -8884,7 +8895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f08441c304e6b84594231c93a2197c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Duration: 240
+  Duration: 10
   GameMgr: {fileID: 1865417791}
 --- !u!114 &1856026026
 MonoBehaviour:
@@ -9289,7 +9300,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.79}
   m_AnchorMax: {x: 1, y: 0.89}
-  m_AnchoredPosition: {x: 3.0000377, y: 0}
+  m_AnchoredPosition: {x: 3.0000305, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1881097861
@@ -9517,10 +9528,10 @@ RectTransform:
   m_Father: {fileID: 186782421}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.02, y: 0.05}
-  m_AnchorMax: {x: 0.36, y: 0.95}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -595.5, y: -0.5}
+  m_SizeDelta: {x: 653, y: 955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1944264158
 MonoBehaviour:
