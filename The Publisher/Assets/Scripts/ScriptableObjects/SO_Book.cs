@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
+using TMPro;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Book", menuName = "ScriptableObjects/Book", order = 1)]
@@ -10,7 +12,8 @@ public class SO_Book : ScriptableObject
 
     public String Title = "Title";
     public String Author = "Author";
-    public String Summary = "Summary";
+    [Multiline(10)]
+    public String Summary = null;
 
     [Header("Validation")]
 

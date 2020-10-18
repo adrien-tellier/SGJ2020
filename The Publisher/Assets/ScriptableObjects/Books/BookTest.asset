@@ -14,7 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: Title
   Author: Author
-  Summary: Summary
+  Summary: "Gaston Leroux Le fant\xF4me de l\u2019op\xE9ra\r\n\r\nOui, il a exist\xE9,
+    en chair et en os, bien qu\u2019il se donn\xE2t toutes les apparences d\u2019un
+    vrai fant\xF4me, c\u2019est-\xE0-dire d\u2019une ombre. \r\n\r\nJ\u2019avais
+    \xE9t\xE9 frapp\xE9, d\xE8s l\u2019abord que je commen\xE7ais de compulser les
+    archives de l\u2019Acad\xE9mie nationale de musique, par la co\xEFncidence surprenante
+    des ph\xE9nom\xE8nes attribu\xE9s au <i>fant\xF4me</i>, et du plus myst\xE9rieux,
+    du plus fantastique des drames et je devais bient\xF4t \xEAtre conduit \xE0 cette
+    id\xE9e que l\u2019on pourrait peut-\xEAtre rationnellement expliquer celui-ci
+    par celui-l\xE0."
   Categories:
   - {fileID: 11400000, guid: da5b8df75ff24d34981a01c1835b58f9, type: 2}
   Colors:

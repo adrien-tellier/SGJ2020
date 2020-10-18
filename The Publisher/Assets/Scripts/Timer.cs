@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
-[RequireComponent(typeof(Text))]
+[RequireComponent(typeof(TextMeshProUGUI))]
 public class Timer : MonoBehaviour
 {
     [SerializeField]
     private float Duration = 60f;
     private float RemainingTime = 0f;
-    private Text TimerText;
+    private TextMeshProUGUI TimerText;
 
     [SerializeField]
     GameManager GameMgr = null;
@@ -20,7 +21,7 @@ public class Timer : MonoBehaviour
     void Start()
     {
         RemainingTime = Duration;
-        TimerText = GetComponent<Text>();
+        TimerText = GetComponent<TextMeshProUGUI>();
     }
 
     // Update is called once per frame
@@ -32,7 +33,7 @@ public class Timer : MonoBehaviour
 	private void FixedUpdate()
 	{
         RemainingTime = Mathf.Max(Duration - Time.timeSinceLevelLoad, 0);
-        TimerText.text = RemainingTime.ToString();
+        TimerText.text = ((int)RemainingTime).ToString() + " s";
         if (!isFinished && RemainingTime <= 0f)
         {
             isFinished = true;
