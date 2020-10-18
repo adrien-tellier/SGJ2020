@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Humoristique1
+  m_EditorClassIdentifier: 
+  Title: "Histoire de l\u2019Invalide \xE0 la t\xEAte de bois"
+  Author: "Eug\xE8ne Mouton"
+  Summary: "\xAB Il n'a rien du tout, dit le chirurgien : quelques jours de di\xE8te
+    et de repos, et il n'y para\xEEtra plus. Seulement l'amputation est n\xE9cessaire.\r\n-
+    L'amputation de quoi ? l'amputation de quoi ? dit le r\xE9giment.\r\n- L'amputation
+    de la t\xEAte, pardi! r\xE9pond le chirurgien. Mais je n'ai pas les instruments
+    qu'il faut... N'importe : qu'on me donne un maillet solide et un bon ciseau \xE0
+    froid bien aiguis\xE9.\xBB\r\nAh ! ce fut une belle op\xE9ration! Jamais on ne
+    vit chose pareille ni homme si adroit. A chaque coup il vous faisait sauter des
+    morceaux d'os gros comme le pouce ; et m\xEAme de cervelle, car Dubois avait
+    la t\xEAte dure et il fallait de la place pour les mortaises.\r"
+  Categories:
+  - {fileID: 11400000, guid: af70d189bdc6fd549a35e69087279b84, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 2e9609f5624ab32498fd743386a64059, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}

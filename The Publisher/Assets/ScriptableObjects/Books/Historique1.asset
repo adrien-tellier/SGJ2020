@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Historique1
+  m_EditorClassIdentifier: 
+  Title: Le Club des collets noirs
+  Author: "Fortun\xE9 du Boisgobey"
+  Summary: "Au commencement de niv\xF4se, en l'an V, comme on disait alors, il y
+    avait bien longtemps que Paris n'avait f\xEAt\xE9 le Jour de l'An.\r\nLe calendrier
+    r\xE9publicain ne se pr\xEAtait point \xE0 cette pu\xE9rilit\xE9 : on avait d'autres
+    pr\xE9occupations. Mais une coutume qui avait contre elle les m\xE8res et les
+    enfant n'\xE9tait gu\xE8re viable, et le premier jour de l'ann\xE9e 1797 vit
+    la restauration de la f\xEAte des petits.\r\nAu gouvernement de la Convention
+    avait succ\xE9d\xE9 celui du Directoire, et la France \xE9prouvait un immense
+    besoin de s'amuser.\r"
+  Categories:
+  - {fileID: 11400000, guid: 67d642183f5a4df4597899cc106cbbc6, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 2e9609f5624ab32498fd743386a64059, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: 0f25c4716c139a64198dace1649108fa, type: 2}

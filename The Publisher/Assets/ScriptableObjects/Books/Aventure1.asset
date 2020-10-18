@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Aventure1
+  m_EditorClassIdentifier: 
+  Title: "Aventures d\u2019un gamin de Paris au pays de lions"
+  Author: Louis Boussenard
+  Summary: "Un rugissement formidable \xE9clata soudain derri\xE8re l'\xE9pais rideau
+    de feuilles et se r\xE9percuta bruyamment sous les arbres g\xE9ants.\r\nTiens!...
+    fit une voix railleuse, on dirait une fuite de tuyau d'orgue.\r\nSilence! interrompit
+    une seconde voix.\r\nBah!... \xE7a vaut toujours mieux qu'une fuite de tuyau
+    de gaz.\r\nEncore une fois, silence ! ou tu vas nous faire \xE9charper.\r\nUn
+    second rugissement fait frissonner les feuilles immobiles...\r\nCette sauvage
+    fanfare, sonn\xE9e par l'ardente gorge d'un fauve, est comme un signal. De nouveaux
+    et non moins redoutables grondements s'\xE9chappent de tous c\xF4t\xE9s des myst\xE9rieuses
+    profondeurs de la for\xEAt tropicale, roulent en rafales assourdissantes, sans
+    pourtant quitter les notes graves, et retentissent au loin avec une incroyable
+    intensit\xE9, en d\xE9pit de l'humidit\xE9 qui sature les couches d'air.\r"
+  Categories:
+  - {fileID: 11400000, guid: 1f7572f41d6c893458270f1909fbb980, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: f8bacf08f2ca52c4eb27e7b37ab823b3, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: a68dd93483aa7d248951b08b054a2dbd, type: 2}

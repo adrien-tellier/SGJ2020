@@ -6926,7 +6926,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: New Text
@@ -8875,7 +8875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f08441c304e6b84594231c93a2197c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Duration: 600
+  Duration: 240
   GameMgr: {fileID: 1865417791}
 --- !u!114 &1856026026
 MonoBehaviour:
@@ -8896,7 +8896,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 60 s
+  m_text: 240 s
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8965,7 +8965,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1856026026}
-    characterCount: 4
+    characterCount: 5
     spriteCount: 0
     spaceCount: 1
     wordCount: 2
@@ -9113,6 +9113,9 @@ MonoBehaviour:
   BooksPool:
   - {fileID: 11400000, guid: f6d706b6f3dcb8b428c74b293400f705, type: 2}
   - {fileID: 11400000, guid: 8963e7459e087554ab618aad28c42c82, type: 2}
+  - {fileID: 11400000, guid: 326dadeb7abddca48b1b43ed22025abf, type: 2}
+  - {fileID: 11400000, guid: 9e4ac273eb72cad4e952e052be500d1a, type: 2}
+  - {fileID: 11400000, guid: 1eabdce9a78b95f42a2a4da5548fe5f5, type: 2}
   GUIPanel: {fileID: 186782420}
   EndGamePanel: {fileID: 1662511303}
   EndGameScore: {fileID: 2075310527}
@@ -10308,7 +10311,7 @@ GameObject:
   - component: {fileID: 2146325308}
   - component: {fileID: 2146325307}
   m_Layer: 5
-  m_Name: LesCollietsNoirs
+  m_Name: LesColletsNoirs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

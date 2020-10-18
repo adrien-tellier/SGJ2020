@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Apprentissage1
+  m_EditorClassIdentifier: 
+  Title: Sans Famille
+  Author: Hector Malot
+  Summary: "Je suis un enfant trouv\xE9. \r\nMais jusqu\u2019\xE0 huit ans j\u2019ai
+    cru que, comme tous les autres enfants, j\u2019avais une m\xE8re, car lorsque
+    je pleurais, il y avait une femme qui me serrait si doucement dans ses bras,
+    en me ber\xE7ant, que mes larmes s\u2019arr\xEAtaient de couler. \r\nPar tout
+    cela et par bien d\u2019autres choses encore, par la fa\xE7on dont elle me parlait,
+    par la fa\xE7on dont elle me regardait, par ses caresses, par la douceur qu\u2019elle
+    mettait dans ses gronderies, je croyais qu\u2019elle \xE9tait ma m\xE8re. Voici
+    comment j\u2019appris qu\u2019elle n\u2019\xE9tait que ma nourrice.\r"
+  Categories:
+  - {fileID: 11400000, guid: b16e1b77920c2b343a45d161affbf9a6, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 2e9609f5624ab32498fd743386a64059, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}
