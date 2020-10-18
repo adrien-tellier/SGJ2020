@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Humoristique2
+  m_EditorClassIdentifier: 
+  Title: "Aim\xE9 de son concierge"
+  Author: "Eug\xE8ne Chavette"
+  Summary: "Jusqu'au jour o\xF9 la Providence compatissante avait enfin bien voulu
+    la faire veuve, la jeune femme, que nous appellerons aussi de son petit nom de
+    C\xE9lestine, avait men\xE9 l'existence d'une garde malade. [...] Nous ne dirons
+    pas que Cl\xE9mentine avait pouss\xE9 un joyeux \xAB ouf ! \xBB quand M. Durieux
+    avait quitt\xE9 cette vall\xE9e de mis\xE8re qu'on nomme la vie, mais nous affirmerons
+    que l'isolement du veuvage ne lui avait pas inspir\xE9 un de ces d\xE9sespoirs
+    qui incitent une femme \xE0 se couper les cheveux jusqu'\xE0 la racine, en fa\xE7on
+    de brosse \xE0 reluire, pour les enfermer dans la bi\xE8re du tr\xE9pass\xE9,
+    ou \xE0 ne plus s'endormir qu'en pressant sur son sein le parapluie du d\xE9funt.
+    Sa douleur avait \xE9t\xE9 modeste, pas bruyante, juste ce qu'il fallait pour
+    que les gens qui avaient connu Durieux pour un parfait butor ne crussent pas
+    qu'il poss\xE9dait des qualit\xE9s cach\xE9es."
+  Categories:
+  - {fileID: 11400000, guid: af70d189bdc6fd549a35e69087279b84, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 3898b5c4f8dbf7e41977ddfef318c2b3, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}

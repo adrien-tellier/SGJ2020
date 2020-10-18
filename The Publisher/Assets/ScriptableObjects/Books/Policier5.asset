@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Policier5
+  m_EditorClassIdentifier: 
+  Title: "L\u2019empoisonneuse"
+  Author: Pierre Ninous
+  Summary: "- Vous savez la nouvelle? \r\n- Malheur ! ne m'en parlez pas, c'est horrible
+    !\r\n- Quoi donc?\r\n- M. de Sauvetat est mort empoisonn\xE9.\r\n- Ah ! mis\xE8re
+    ! est-ce vrai ?\r\n- Oh! moi, j'ai toujours dit que cette maladie n'\xE9tait
+    pas naturelle !\r\n- Et qui a fait le coup, le sait-on? \r\n- Parbleu ! mademoiselle
+    Marianne, sa ma\xEEtresse !\r\n- Pas possible; pourquoi l'aurait-elle empoisonn\xE9?
+    Elle n'avait rien \xE0 gagner \xE0 sa mort, au contraire.\r\n- Vous ne savez
+    donc pas? il lui laissait cinquante mille francs par testament.\r\n- Et avec
+    cela, elle allait se marier avec M. Descat, qui, lui, para\xEEt-il, ne voulait
+    plus attendre.\r"
+  Categories:
+  - {fileID: 11400000, guid: 2cc41c02f3db5444f8a66d1212193f4d, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 3898b5c4f8dbf7e41977ddfef318c2b3, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: 858d0e05cbe99cd43a1ed0a4b62eec17, type: 2}
+  - {fileID: 11400000, guid: 8e9835c07a16bc141acd1ffd649c1a80, type: 2}

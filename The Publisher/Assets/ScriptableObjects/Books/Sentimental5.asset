@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Sentimental5
+  m_EditorClassIdentifier: 
+  Title: La porteuse de pain
+  Author: "Xavier de Mont\xE9pin"
+  Summary: "Bonne ouvri\xE8re, experte aux travaux de couture, elle avait \xE9pous\xE9
+    \xE0 vingt-deux ans un brave gar\xE7on, Pierre Fortier, m\xE9canicien dans l'usine
+    de M. Jules Labroue.\r\nLe m\xE9canicien \xE9tait mort, [...] M. Labroue, voulant
+    assurer l'avenir de la veuve et des orphelins, avait offert \xE0 Jeanne la place
+    de gardienne-concierge de l'usine.\r\nJeanne avait accept\xE9 avec reconnaissance
+    parce qu'elle trouvait l\xE0 le moyen d'\xE9lever ses enfants. Mais, ainsi que
+    nous le lui avons entendu dire \xE0 l'\xE9pici\xE8re de Maisons-Alfort, elle
+    souffrait dans l'usine, o\xF9 tout lui rappelait la fin tragique du mari qu'elle
+    pleurait.\r\nIl lui semblait qu'en s'\xE9loignant d'Alfortville elle parviendrait
+    \xE0 chasser, \xE0 att\xE9nuer du moins les affreux souvenirs qui hantaient sa
+    pens\xE9e le jour et troublaient son sommeil la nuit. \r\nMais s'\xE9loigner
+    \xE9tait impossible.\r\nPour elle et pour ses enfants, il s'agissait de vivre.
+    \u2014 Or, aucun travail de couture n'aurait pu lui fournir des ressources \xE9quivalentes
+    \xE0 celles qui r\xE9sultaient de sa position \xE0 l'usine.\r"
+  Categories:
+  - {fileID: 11400000, guid: 0bd3503177646264587668052ed32058, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  - {fileID: 11400000, guid: 3898b5c4f8dbf7e41977ddfef318c2b3, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}

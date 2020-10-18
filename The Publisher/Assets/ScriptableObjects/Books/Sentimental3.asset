@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Sentimental3
+  m_EditorClassIdentifier: 
+  Title: "Le Ma\xEEtre de forges"
+  Author: Georges Ohnet
+  Summary: "[...] il se maria. \r\n\r\nSa jeune femme, fille du duc de Bligny, avait
+    \xE2ne \xE2me tendre et un esprit calme. Elle adora le marquis et sut fermer
+    les yeux sur ses faiblesses. tl \xE9tait de ces charmants prodigues pour qui
+    le plaisir est l'essence m\xEAme de la vie, et qui ont la main et le coeur toujours
+    ouverts ne sachant pas r\xE9sister \xE0 un d\xE9sir de sa femme, mais capable
+    de la faire mourir de chagrin, quitte \xE0 la pleurer am\xE8rement apr\xE8s.
+    Quand la marquise le grondait maternellement au lendemain d'une trop grosse folie,
+    il lui baisait les mains avec des larmes dans les yeux, et lui disait \xAB Tu
+    es une sainte!\xBB Et le jour suivant, il recommen\xE7ait.\r"
+  Categories:
+  - {fileID: 11400000, guid: 0bd3503177646264587668052ed32058, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 3898b5c4f8dbf7e41977ddfef318c2b3, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: d36cb8e9dacf5664ea275a2e16de2abd, type: 2}

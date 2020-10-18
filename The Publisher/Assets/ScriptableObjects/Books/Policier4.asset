@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Policier4
+  m_EditorClassIdentifier: 
+  Title: "Le vampire : les myst\xE8res du crime"
+  Author: Michel Morphy
+  Summary: "Une id\xE9e horrible, persistante, tenace, s'\xE9tait ancr\xE9e dans
+    le cerveau de Caudirol.\r\n- Oui, se dit il, quand je devrais la d\xE9terrer
+    avec mes ongles, je la r\xEAverrai, et je... Oh! un cadavre de femme, la nuit,
+    dans un cimeti\xE8re, il y a l\xE0 des sensations d'une horreur d\xE9licieuse...\r\nMais
+    il secoua cette pens\xE9e de vampire.\r\n- Retrouvons la Sauvage, fit-il en se
+    dirigeant vers l'escalier.\r\nLa Marmite et Sacrais suivirent leur chef.\r\n"
+  Categories:
+  - {fileID: 11400000, guid: 2cc41c02f3db5444f8a66d1212193f4d, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}

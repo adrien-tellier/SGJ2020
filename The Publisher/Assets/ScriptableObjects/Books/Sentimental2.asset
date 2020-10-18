@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Sentimental2
+  m_EditorClassIdentifier: 
+  Title: "La fianc\xE9e de Jean-Claude"
+  Author: Jules Mary
+  Summary: "L\u2019enfant ob\xE9it, en sanglotant, les yeux cach\xE9s par sa blouse
+    qu\u2019il tenait obstin\xE9ment relev\xE9e devant sa figure; il murmura avec
+    un hoquet qui lui brisait la voix : \r\n- Je vous demande pardon, Monsieur l\u2019instituteur.
+    Je vous promets d\u2019\xEAtre plus sage; j\u2019ai bien du regret de ce que
+    j\u2019ai fait l\xE0. Pardon. \r\nJean-Claude prit l\u2019enfant dans ses bras,
+    malgr\xE9 sa r\xE9sistance, et l\u2019embrassa. Le p\xE8re le regardait, s\xE9rieux,
+    tr\xE8s attentif, les poings plant\xE9s sur les hanches. \r\n- Vous \xEAtes un
+    brave, vous, dit-il.\r\n"
+  Categories:
+  - {fileID: 11400000, guid: 0bd3503177646264587668052ed32058, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  - {fileID: 11400000, guid: 3898b5c4f8dbf7e41977ddfef318c2b3, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: 858d0e05cbe99cd43a1ed0a4b62eec17, type: 2}

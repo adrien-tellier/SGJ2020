@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Aventure5
+  m_EditorClassIdentifier: 
+  Title: "La for\xEAt vierge"
+  Author: Gustave Aimard
+  Summary: "-Raison de plus pour que les provisions ne manquent pas, citoyen.\r\nL'\xE9tranger
+    se mit \xE0 rire, descendit de cheval, se chargea de sa valise et jetant la bride
+    \xE0 l'aubergiste \r\nPourvu que tu me donnes quelque chose \xE0 mettre sous
+    la dent, je me tiendrai pour satisfait, dit-il d'un ton de bonne humeur. \r\nVous
+    serez mieux, trait\xE9 que vous ne le croyez, citoyen; soyez tranquille. A la
+    gr\xE2ce de l'\xCAtre supr\xEAme reprit-il gaiement.\r\nIl \xE9carta alors la
+    foule qui se pressait autour de lui, et il p\xE9n\xE9tra dans l'auberge sur les
+    pas de l'h\xF4te, qui avait, ordonn\xE9 \xE0 un gamin d'une quinzaine d'ann\xE9es
+    de conduire le cheval a l'\xE9curie."
+  Categories:
+  - {fileID: 11400000, guid: 1f7572f41d6c893458270f1909fbb980, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  - {fileID: 11400000, guid: f8bacf08f2ca52c4eb27e7b37ab823b3, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}

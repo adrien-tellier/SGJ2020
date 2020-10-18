@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Policier2
+  m_EditorClassIdentifier: 
+  Title: "Le Myst\xE8re de la chambre jaune"
+  Author: Gaston Leroux
+  Summary: "Ce  n\u2019est  pas  sans  une  certaine  \xE9motion  que  je commence
+    \xE0 raconter ici les aventures extraordi-naires  de  Joseph  Rouletabille. 
+    Celui-ci,  jusqu\u2019\xE0 ce  jour,  s\u2019y  \xE9tait  si  formellement  oppos\xE9 
+    que j\u2019avais fini par d\xE9sesp\xE9rer de  ne  publier  jamais l\u2019histoire
+    polici\xE8re la plus curieuse de ces quinze derni\xE8res ann\xE9es. J\u2019imagine 
+    m\xEAme  que  le  public  n\u2019aurait  jamais connu  toute  la  v\xE9rit\xE9 
+    sur  la  prodigieuse  affaire dite  de la \xABChambre Jaune\xBB, g\xE9n\xE9ratrice
+    de tant de  myst\xE9rieux  et  cruelset  sensationnels drames, et \xE0 laquelle
+    mon ami fut si intimement m\xEAl\xE9 [...]."
+  Categories:
+  - {fileID: 11400000, guid: 2cc41c02f3db5444f8a66d1212193f4d, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  - {fileID: 11400000, guid: f8bacf08f2ca52c4eb27e7b37ab823b3, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}

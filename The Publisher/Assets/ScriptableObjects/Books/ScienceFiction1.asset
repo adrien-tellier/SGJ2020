@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: ScienceFiction1
+  m_EditorClassIdentifier: 
+  Title: "L\u2019Astre d\u2019\xE9pouvante"
+  Author: Gustave Le Rouge
+  Summary: "- J\u2019ai lu la traduction des messages interastraux. je sais aussi
+    que Miss Alberte s\u2019est retir\xE9e dans une solitude profonde. \r\n- Quand
+    il fut malheureusement constat\xE9 que les signaux lumineux \xE9taient d\xE9finitivement
+    interrompus, miss Albert nous fit appeler, moi, le capitaine Was et l\u2019ing\xE9nieur
+    Bolenski : \u201CMes amis, nous dit-elle, je suis d\xE9sesp\xE9r\xE9e, mais non
+    d\xE9courag\xE9e. Puisque Robert Darvel a trouv\xE9 le moyen d\u2019atteindre
+    la plan\xE8te Mars, il faut que nous le trouvions aussi, et nous le trouverons,
+    duss\xE9-je y sacrifier ma fortune.\r"
+  Categories:
+  - {fileID: 11400000, guid: 30b81085de266bd44a15cb95edeed8ba, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 3898b5c4f8dbf7e41977ddfef318c2b3, type: 2}
+  - {fileID: 11400000, guid: f8bacf08f2ca52c4eb27e7b37ab823b3, type: 2}
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: 734c508f6a451994387fef552649049c, type: 2}

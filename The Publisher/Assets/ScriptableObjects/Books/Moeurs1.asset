@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Moeurs1
+  m_EditorClassIdentifier: 
+  Title: La religion du crime
+  Author: "L\xE9on Taxil et Paul Foucher"
+  Summary: "A cette \xE9poque, le quartier situ\xE9 derri\xE8re la ligne des th\xE9\xE2tres
+    du boulevard du Temple offrait, sur certains points, une physionomie sinistre.
+    \r\n\r\nDes rues ignobles, mal pav\xE9es, aux trottoirs \xE9troits ou m\xEAme
+    sans trottoirs, comme la rue des Marais  et la rue des Foss\xE9s-du-Temple, \xE9taient
+    bord\xE9es de marchand de vin habitant des maisonnettes basses, titubantes, galeuses,
+    faites de boue et de crachat, enlumin\xE9es de peinture rouge ou verte. \r\n\r\nL\xE0
+    se r\xE9unissait la boh\xE8me de la boh\xE8me, les trag\xE9diens m\xE9connus
+    les Thespis du cabotinage, les aspirants \xE0 la figuration, les d\xE9bitants
+    de contremarques, une foule d\u2019industriels suspects et de travailleurs de
+    la nuit."
+  Categories:
+  - {fileID: 11400000, guid: d8cb6d77779f9164d9e88fc22949bc86, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 3898b5c4f8dbf7e41977ddfef318c2b3, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: 8e9835c07a16bc141acd1ffd649c1a80, type: 2}

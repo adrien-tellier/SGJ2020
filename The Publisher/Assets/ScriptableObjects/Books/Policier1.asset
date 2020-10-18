@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Policier1
+  m_EditorClassIdentifier: 
+  Title: Le Boucher de Meudon
+  Author: Jules Mary
+  Summary: "- H\xE9! les fl\xE2neurs, dit Gueudet, faudrait pourtant en finir avec
+    c'te paille...\r\nSa fourche s'enfon\xE7a dans une gerbe...\r\nQuand il la retira,
+    il, poussa un grand cri, fit trois pas en arri\xE8re et perdant pied, roula comme
+    une masse sous les jambes des chevaux...\r\n[...]\r\n- L\xE0! l\xE0! b\xE9gaya-t-il
+    d'une voix \xE9trangl\xE9e... L\xE0!... enterr\xE9 sous la paille... le cadavre
+    d'une !...\r\nDu haut de la voiture, les ouvri\xE8res, qui s'\xE9taient pench\xE9es,
+    criaient :\r\n- Oui, c'est le corps d'une femme.... on voit la jambe...\r\n"
+  Categories:
+  - {fileID: 11400000, guid: 2cc41c02f3db5444f8a66d1212193f4d, type: 2}
+  - {fileID: 11400000, guid: 0bd3503177646264587668052ed32058, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  - {fileID: 11400000, guid: 3898b5c4f8dbf7e41977ddfef318c2b3, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: ScienceFiction2
+  m_EditorClassIdentifier: 
+  Title: "L\u2019\xEEle de l\u2019\xE9pouvante"
+  Author: Jean de la Hire
+  Summary: "Quels drames, avant cette entrevue myst\xE9rieuse, projet\xE9e par une
+    femme extraordinaire r\xE9solue \xE0 s\u2019allier \xE0 l\u2019homme le plus
+    exorbitant que l\u2019Humanit\xE9 ait jamais connu!...\r\n\r\nD\u2019abord, ce
+    fut la nuit o\xF9 Saint-Clair le Nyctalope d\xE9couvrit que sa femme Sylvie et
+    leur fils Pierre, mis en catalepsie au moyen d\u2019un merveilleux appareil,
+    et , en compagnie d\u2019un certain M\xE9zarek, savant redoutable, \xE9taient
+    endormis de telle sorte qu\u2019ils ne se r\xE9veilleraient qu\u2019en l\u2019an
+    2100!...\r"
+  Categories:
+  - {fileID: 11400000, guid: 30b81085de266bd44a15cb95edeed8ba, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 3898b5c4f8dbf7e41977ddfef318c2b3, type: 2}
+  - {fileID: 11400000, guid: f8bacf08f2ca52c4eb27e7b37ab823b3, type: 2}
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: 108d95f6cc44950458b53d409960753a, type: 2}

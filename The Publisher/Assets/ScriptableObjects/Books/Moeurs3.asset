@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Moeurs3
+  m_EditorClassIdentifier: 
+  Title: Les Soeurs Vachette
+  Author: Victor Joze
+  Summary: "A ce moment, elle aper\xE7ut Blanche qui sortait du salon, suivie de
+    Flor\xE9al (le vicomte de Morpyon \xE9tait rest\xE9 \xE0 Laon, trouvant que sa
+    pr\xE9sence \xE0 la noce de Marie e\xFBt \xE9t\xE9 superflue.)\r\nTu sais, soeurette,
+    lui cria-t-elle, joyeuse, Marius vient de me demander en mariage. \r\nTant mieux,
+    fit Blanche. Rappelle-toi ce que je t\u2019avais dit\u2026 J\u2019avais pr\xE9vu
+    juste, pas?... Tu seras Madame Marius...\r\nC\u2019est vrai, mais regarde-le,
+    comme il est bon, comme il est doux, comme il est pr\xEAt \xE0 m\u2019ob\xE9ir.
+    Il fera un mari id\xE9al. Il sera\u2026 Monsieur Vachette."
+  Categories:
+  - {fileID: 11400000, guid: d8cb6d77779f9164d9e88fc22949bc86, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 3898b5c4f8dbf7e41977ddfef318c2b3, type: 2}
+  - {fileID: 11400000, guid: f8bacf08f2ca52c4eb27e7b37ab823b3, type: 2}
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: 94fc91c1bccd3d44f86c5c9be479b765, type: 2}
+  - {fileID: 11400000, guid: d36cb8e9dacf5664ea275a2e16de2abd, type: 2}

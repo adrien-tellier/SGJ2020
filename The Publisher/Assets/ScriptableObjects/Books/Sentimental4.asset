@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Sentimental4
+  m_EditorClassIdentifier: 
+  Title: "Le Roman de l\u2019ouvri\xE8re"
+  Author: Charles de Vitis
+  Summary: "J'affirme qu'en donnant \xE0 Mlle d'Orchamps une partie de l'argent qu'un
+    bon mariage te mettrait entre les mains, tu ferais une oeuvre mille fois plus
+    m\xE9ritoire qu'en l'\xE9pousant pauvre, et en l'exposant \xE0 une mis\xE8re
+    que tu peux accepter pour toi, si tu en as le courage, mais que tu n'as pas le
+    droit de lui imposer.\r\n\r\n- Non, vous n'en avez pas le droit, r\xE9p\xE9ta
+    \xE0 son tour Meidinger qui avait surpris un mouvement de protestation de Fernand,
+    je dis m\xEAme que vous feriez preuve du plus monstrueux \xE9go\xEFsme en \xE9pousant
+    cette jeune fille, au lieu de vous sacrifier vous-m\xEAme \xE0 ses v\xE9ritables
+    int\xE9r\xEAts, en cherchant dans un mariage riche le seul moyen \xE0 votre port\xE9e
+    de lui venir s\xE9rieusement en aide. \xBB\r\n"
+  Categories:
+  - {fileID: 11400000, guid: 0bd3503177646264587668052ed32058, type: 2}
+  - {fileID: 11400000, guid: d8cb6d77779f9164d9e88fc22949bc86, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 3898b5c4f8dbf7e41977ddfef318c2b3, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}

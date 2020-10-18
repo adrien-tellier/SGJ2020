@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Moeurs4
+  m_EditorClassIdentifier: 
+  Title: "L\u2019H\xF4tel du nord"
+  Author: "Eug\xE8ne Dabit"
+  Summary: "L'exigu\xEFt\xE9, le d\xE9nuement, l'odeur de ce lieu, cr\xE9aient un
+    malaise. Louise Lecouvreur se d\xE9tourna. [...] Emile Lecouvreur ne s'\xE9tonnait
+    pas de cette indigence. Durant la guerre n'en avait-il pas vu d'autres ; et des
+    nuits dans les granges, ou m\xEAme \xAB \xE0 l'auberge de la belle \xE9toile
+    \xBB, comme il disait en riant. Il fallait aussi consid\xE9rer le prix des chambres
+    : \xE0 ce tarif-l\xE0, pouvait-on mieux offrir ? D'ailleurs toutes ces salissures
+    partout prouvaient bien que les locataires se soucinient peu de propret\xE9 ;
+    cet inconfort ne devait gu\xE8re les incommoder. Et puis, \xE0 quoi leur servaient
+    ces chambres ? A dormir, pas plus."
+  Categories:
+  - {fileID: 11400000, guid: d8cb6d77779f9164d9e88fc22949bc86, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}

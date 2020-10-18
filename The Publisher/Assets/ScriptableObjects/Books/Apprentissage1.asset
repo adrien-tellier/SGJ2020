@@ -25,6 +25,7 @@ MonoBehaviour:
   Categories:
   - {fileID: 11400000, guid: b16e1b77920c2b343a45d161affbf9a6, type: 2}
   Colors:
-  - {fileID: 11400000, guid: 2e9609f5624ab32498fd743386a64059, type: 2}
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  - {fileID: 11400000, guid: f8bacf08f2ca52c4eb27e7b37ab823b3, type: 2}
   Illustrations:
   - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}

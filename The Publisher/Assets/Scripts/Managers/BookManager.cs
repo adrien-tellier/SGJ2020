@@ -76,7 +76,6 @@ public class BookManager : MonoBehaviour
 
 		CoverColorImage = GetComponent<Image>();
 		CoverColorImage.color = SelectedColor.Color;
-		Illustration.color = new Color(0, 0, 0, 0);
         Illustration.preserveAspect = true;
     }
 

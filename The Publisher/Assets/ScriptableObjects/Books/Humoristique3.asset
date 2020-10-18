@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Humoristique3
+  m_EditorClassIdentifier: 
+  Title: "Un mari perdu, L\u2019Homme \xE0 marier "
+  Author: Paul de Kock
+  Summary: "Girardi\xE8re \xE9tait persuad\xE9 qu'il trouverait grand un nombre de
+    partis, parce qu'en effet, dans le monde les maris \xE9tant plus rares que les
+    amants, ceux qui s'annoncent avec la courageuse intention de prendre une femme
+    sont d'ordinaire tr\xE8s recherch\xE9s. Et il se disait: \u2014 Je n'ai pas eu
+    de bonnes fortunes, parce que le hasard ne m'a pas servi; mais quand je vais
+    dire : Je veux me marier, eh! ce sera bien diff\xE9rent ! toutes les demoiselles,
+    toutes les veuves me feront des agaceries.\r\n\r\nTh\xE9ophile ne se disait pas:
+    \u2014 J'ai bient\xF4t cinquante ans, je suis presque chauve, j'ai la figure
+    chiffonn\xE9e, les yeux bouffis et la patte d'oie; je ne suis pas spirituel,
+    je n'ai aucun talent d'agr\xE9ment et je suis p\xE9tri de pr\xE9tentions. <i>Bridoison
+    </I> pr\xE9tend que ce sont des choses que l'on se dit \xE0 soi-m\xEAme;moi,
+    je crois que peu de gens se font de tels aveux.\r"
+  Categories:
+  - {fileID: 11400000, guid: af70d189bdc6fd549a35e69087279b84, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  - {fileID: 11400000, guid: 3898b5c4f8dbf7e41977ddfef318c2b3, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}

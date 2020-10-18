@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Moeurs2
+  m_EditorClassIdentifier: 
+  Title: "La vertu de l\u2019abb\xE9 Mirande"
+  Author: "Charles M\xE9rouvel"
+  Summary: "C'est une v\xE9rit\xE9 \u2013 est-ce une v\xE9rit\xE9 ou une illusion
+    des po\xEBtesses ? \u2013 g\xE9n\xE9ralement accr\xE9dit\xE9e que la femme est
+    le plus charmant, le plus joli, le plus s\xE9duisant \u2013 pour nous sp\xE9cialement
+    \u2013 des animaux de la cr\xE9ation. \r\n\r\nNe froncez pas les sourcils, vos
+    beaux sourcils olympiens, madame. Vous \xEAtes la derni\xE8re des cr\xE9atures
+    \xE0 laquelle je me permettrais de manquer de respect. [...] Et la femme, l'\xEAtre
+    qui nous captive, dont nous raffolons est un animal, mais le plus coquet, le
+    plus gracieux, le plus po\xE9tique, le plus \xE9th\xE9r\xE9 et le plus sculptural
+    de tous."
+  Categories:
+  - {fileID: 11400000, guid: d8cb6d77779f9164d9e88fc22949bc86, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 3898b5c4f8dbf7e41977ddfef318c2b3, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}

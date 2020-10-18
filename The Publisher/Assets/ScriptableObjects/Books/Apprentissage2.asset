@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Apprentissage2
+  m_EditorClassIdentifier: 
+  Title: "La peau d\u2019un homme"
+  Author: "Maurice Mont\xE9gut"
+  Summary: "Ce n\u2019\xE9tait pas un gar\xE7on sentimental; il aimait le rire et
+    la paresse, et grandisssait sans r\xEAves. sa m\xE8re, veuve presqu\u2019aussit\xF4t
+    que mari\xE9e, mettait en lui son unique affection et trouvait tout bien pourvu
+    qu\u2019il f\xFBt content. [...] Maxime vit venir une jeune femme, frande, mince,
+    brune, qui lui parut terriblement belle, - puis une peite fille de onze ou douze
+    ans, fine et vive, dont les cheveux roux flambaient dans le soleil, et dont toute
+    la personne \xE9tait extraordinaire. Tr\xE8s troubl\xE9, il sonna chez lui, violemment.
+    La petite se penchait sur la rampe\u2026\r\nPrends garde, Marthe, dit sa m\xE8re.
+    \r\nElle s\u2019appelait Marthe, il aimait ce nom-l\xE0.\r"
+  Categories:
+  - {fileID: 11400000, guid: b16e1b77920c2b343a45d161affbf9a6, type: 2}
+  - {fileID: 11400000, guid: 0bd3503177646264587668052ed32058, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}

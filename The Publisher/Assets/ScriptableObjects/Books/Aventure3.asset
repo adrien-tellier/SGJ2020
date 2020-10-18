@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Aventure3
+  m_EditorClassIdentifier: 
+  Title: "Fant\xF4mas"
+  Author: Pierre Souvestre et Marcel Allain
+  Summary: "\xAB Allongeant son ombre immense\r\nSur le monde et sur Paris,\r\nQuel
+    est ce spectre aux yeux gris\r\nQui surgit dans le silence ?\r\nFant\xF4mas,
+    serait-ce toi ?\r\nQui te dresses sur les toits ? \xBB\r\nQui est Fant\xF4mas
+    ? \xAB Rien et tout \xBB, \xAB Personne mais cependant quelqu'un \xBB, \xAB Enfin,
+    que fait-il ce quelqu'un ? Il fait peur. \xBB\r"
+  Categories:
+  - {fileID: 11400000, guid: 1f7572f41d6c893458270f1909fbb980, type: 2}
+  - {fileID: 11400000, guid: 2cc41c02f3db5444f8a66d1212193f4d, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}

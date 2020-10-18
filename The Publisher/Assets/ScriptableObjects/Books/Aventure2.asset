@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0796f0e0e89784aa728ade0a45f7ce, type: 3}
+  m_Name: Aventure2
+  m_EditorClassIdentifier: 
+  Title: "Ars\xE8ne Lupin gentleman cambrioleur"
+  Author: Maurice Leblanc
+  Summary: "Ce fut la terreur. On n\u2019osa plus rester seul dans sa cabine, et
+    pas davantage s\u2019aventurer seul aux endroits trop \xE9cart\xE9s. Prudemment
+    on se groupait entre gens s\xFBrs les uns des autres. Et encore, une m\xE9fiance
+    instinctive divisait les plus intimes. C\u2019est que la menace ne provenait
+    pas d\u2019un individu isol\xE9, et par l\xE0 m\xEAme moins dangereux. Ars\xE8ne
+    Lupin maintenant c\u2019\xE9tait\u2026 c\u2019\xE9tait tout le monde. Notre imagination
+    surexcit\xE9e lui attribuait un pouvoir miraculeux et illimit\xE9. On le supposait
+    capable de prendre les d\xE9guisements les plus inattendus."
+  Categories:
+  - {fileID: 11400000, guid: 1f7572f41d6c893458270f1909fbb980, type: 2}
+  - {fileID: 11400000, guid: 2cc41c02f3db5444f8a66d1212193f4d, type: 2}
+  Colors:
+  - {fileID: 11400000, guid: 30a727fb3a2195248a6dbdd534b1efd1, type: 2}
+  Illustrations:
+  - {fileID: 11400000, guid: b38c08361e2867e4f8272063bdc4468f, type: 2}
