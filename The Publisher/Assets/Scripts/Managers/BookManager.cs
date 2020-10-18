@@ -134,7 +134,7 @@ public class BookManager : MonoBehaviour
         if (Array.Find(CurrentBook.Illustrations, element => element == SelectedIllustration))
             score++;
 
-        return score;
+        return Scores[score];
 	}
 
     public void ResetSelection()
