@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6af2a514685ee04e9789ec5d8c85646, type: 3}
   m_Name: DefaultIllustration
   m_EditorClassIdentifier: 
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 21300000, guid: 7e390f5f259b475498c1bf9852153bcf, type: 3}
