@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f6af2a514685ee04e9789ec5d8c85646, type: 3}
-  m_Name: Illustration2
+  m_Name: FantomeDeLOpera
   m_EditorClassIdentifier: 
-  Sprite: {fileID: 21300000, guid: 193ceebebac10f143974f14868e00969, type: 3}
+  Sprite: {fileID: 21300000, guid: b389bc43de232f9419c61e2aecf0fa22, type: 3}

@@ -58,26 +58,27 @@ public class BookManager : MonoBehaviour
 
     private bool IsFront = true;
 
-    #endregion
+	#endregion
 
-    #region Unity Methods
+	#region Unity Methods
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        if (FrontCover == null || BackwardCover == null)
-            return;
+	// Start is called before the first frame update
+	void Start()
+	{
+		if (FrontCover == null || BackwardCover == null)
+			return;
 
-        FrontCover.SetActive(IsFront);
-        BackwardCover.SetActive(!IsFront);
+		FrontCover.SetActive(IsFront);
+		BackwardCover.SetActive(!IsFront);
 
-        FrontCover.GetComponent<FrontCover>().ChangeCurrentBook(CurrentBook);
-        BackwardCover.GetComponent<BackwardCover>().ChangeCurrentBook(CurrentBook);
+		FrontCover.GetComponent<FrontCover>().ChangeCurrentBook(CurrentBook);
+		BackwardCover.GetComponent<BackwardCover>().ChangeCurrentBook(CurrentBook);
 
 		CoverColorImage = GetComponent<Image>();
-        CoverColorImage.color = SelectedColor.Color;
-        Illustration.color = new Color(0, 0, 0, 0);
-	}
+		CoverColorImage.color = SelectedColor.Color;
+		Illustration.color = new Color(0, 0, 0, 0);
+        Illustration.preserveAspect = true;
+    }
 
     // Update is called once per frame
     void Update()
