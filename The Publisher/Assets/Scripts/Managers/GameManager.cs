@@ -102,5 +102,13 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneName);
 	}
 
+    public void SetPause(bool Pause)
+	{
+        if (Pause)
+            Time.timeScale = 0f;
+        else
+            Time.timeScale = 1f;
+	}
+
     #endregion
 }
