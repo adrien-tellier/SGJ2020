@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935e7019959a9fd4c8881eb56a964506, type: 3}
+  m_Name: RomanHumoristique
+  m_EditorClassIdentifier: 
+  Name: Roman Humoristique
+  Description: "Le roman populaire humoristique est caract\xE9ris\xE9 par une certaine
+    vivacit\xE9. Il y a un art de l\u2019incongru, des quiproquos, des coups de th\xE9\xE2tre
+    tragi-comiques en cours voire en fin d\u2019intrigue. Le roman humoristique populaire
+    renonce \xE0 une certaine vraisemblance au profit d\u2019une construction en
+    montagnes russes qui vont du burlesque au dramatique.\r\n\n<i>Pour aller plus
+    loin:\nL\u2019humour comme tout proc\xE9d\xE9 comique met en place une distance
+    avec le monde. On peut dire qu\u2019il met en avant un certain absurde car l\u2019humour
+    propose une vision qui saccage l\u2019ordre des choses. Il n\u2019y a plus d\u2019harmonie.
+    Dans le cadre du roman humoristique, le d\xE9veloppement m\xEAme de ce genre
+    montre les pr\xE9mices de la fin du roman populaire sentimental. Il y a de mani\xE8re
+    sous-jacente une crise du sens : une perte des valeurs fond\xE9es sur la transparence
+    et sur la coh\xE9rence du discours.</i>\r\n"

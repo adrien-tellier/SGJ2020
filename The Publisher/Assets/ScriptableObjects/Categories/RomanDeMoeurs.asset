@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935e7019959a9fd4c8881eb56a964506, type: 3}
+  m_Name: RomanDeMoeurs
+  m_EditorClassIdentifier: 
+  Name: Roman de Moeurs
+  Description: "Le roman de moeurs se fixe comme but premier de d\xE9crire un milieu
+    ou un probl\xE8me social dans sa complexit\xE9, le plus souvent \xE0 travers
+    une s\xE9rie de portraits. Le roman de moeurs est g\xE9n\xE9ralement un roman
+    de la critique sociale mais cela ne veut pas dire qu\u2019il se limite \xE0 une
+    description politis\xE9e du r\xE9el. Il propose une vision non id\xE9alis\xE9e
+    du monde sans faire appel \xE0 une perspective m\xE9taphysique ou philosophique.\r"

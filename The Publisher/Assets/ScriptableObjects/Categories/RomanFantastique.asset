@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935e7019959a9fd4c8881eb56a964506, type: 3}
+  m_Name: RomanFantastique
+  m_EditorClassIdentifier: 
+  Name: Roman fantastique
+  Description: "Au sens le plus neutre un roman fantastique va mettre en sc\xE8ne
+    des \xEAtres irr\xE9els et/ou des ph\xE9nom\xE8nes surnaturels. Il relate des
+    \xE9v\xE9nements \xE9tranges, le plus souvent irrationnels ou incompr\xE9hensibles.
+    Le fantastique se d\xE9finit par une intrusion du surnaturel dans le cadre r\xE9aliste
+    d\u2019un r\xE9cit. La peur est souvent pr\xE9sente, que ce soit chez le h\xE9ros
+    ou dans une volont\xE9 de l\u2019auteur de provoquer l\u2019angoisse chez le
+    lecteur ; n\xE9anmoins ce n\u2019est pas une condition sine qua non du fantastique.
+    \r\n\r\n<i>Pour aller plus loin:\nLe f\xE9erique (on parle aussi de merveilleux)
+    est un univers merveilleux qui s'ajoute au monde r\xE9el sans lui porter atteinte
+    ni en d\xE9truire la coh\xE9rence. Le fantastique, au contraire, manifeste un
+    scandale, une d\xE9chirure, une irruption insolite, presque insupportable dans
+    le monde r\xE9el. Autrement dit, le monde f\xE9erique et le monde r\xE9el se
+    juxtaposent sans heurt ni conflit. Certes, ils ob\xE9issent \xE0 des lois diff\xE9rentes
+    mais cela ne cr\xE9e pas de heurts dans la perception du monde.</i>\r"

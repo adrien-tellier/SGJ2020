@@ -8,6 +8,7 @@ public class SO_Category : ScriptableObject
     #region Variables
 
     public string Name = "Name";
+    [Multiline(10)]
     public string Description = "Description";
 
 	#endregion

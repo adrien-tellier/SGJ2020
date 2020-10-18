@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935e7019959a9fd4c8881eb56a964506, type: 3}
+  m_Name: RomanHistorique
+  m_EditorClassIdentifier: 
+  Name: Roman Historique
+  Description: "Le roman historique met en sc\xE8ne les rapports d\u2019un ou de
+    plusieurs individus \xE0 une histoire. La mobilit\xE9 sociale, les antagonismes
+    de classes, les interactions de peuples, les religions cr\xE9ent des situations
+    dramatiques o\xF9 l\u2019on abaisse, o\xF9 l\u2019on \xE9limine des personnages
+    pour en porter d\u2019autres au pouvoir. \r\n\r\n<i>Pour aller plus loin:\nL'histoire
+    est d\xE8s lors trait\xE9e comme une science. La comprendre est un moyen politique
+    d'agir sur les r\xE9alit\xE9s pr\xE9sentes. </i>\r"

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935e7019959a9fd4c8881eb56a964506, type: 3}
+  m_Name: RomanPolicier
+  m_EditorClassIdentifier: 
+  Name: Roman Policier
+  Description: "Un roman policier est un roman dont l'intrigue est fond\xE9e sur
+    des activit\xE9s criminelles plus ou moins myst\xE9rieuses qui sont \xE9lucid\xE9es
+    par une enqu\xEAte conduite par la police, par des d\xE9tectives ou par des particuliers.
+    Le genre policier comporte six invariants : le crime ou d\xE9lit, le mobile,
+    le coupable, la victime, le mode op\xE9ratoire et l'enqu\xEAte.\r\n\r\n<i>Pour
+    aller plus loin:\nUn de leurs soucis premiers encore aujourd'hui dominant a \xE9t\xE9
+    de dire le monde tel qu'il est et tel qu'il devient. En tentant de cerner le
+    Mal, qu'il s'agisse du crime ou des pouvoirs visibles ou occultes qui manipulent
+    la plan\xE8te, le polar s'efforce de raconter l'homme, avec ses doutes, ses peurs,
+    ses obsessions, ses angoisses et ses frustrations. </i>\r"

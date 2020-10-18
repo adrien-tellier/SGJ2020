@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935e7019959a9fd4c8881eb56a964506, type: 3}
+  m_Name: RomanSentimental
+  m_EditorClassIdentifier: 
+  Name: Roman Sentimental
+  Description: "Le roman sentimental s'appuie sur les r\xE9actions \xE9motionnelles
+    de leurs lecteurs et de leurs personnages. L\u2019intrigue est arrang\xE9e pour
+    d\xE9velopper \xE0 la fois les \xE9motions et les actions. Cet univers fictif
+    construit par les romanciers leur permet de former moralement leurs lecteurs.
+    Il fonctionne suivant la logique du mod\xE8le et du contre-mod\xE8le ce qui permet
+    d\u2019illustrer les passions et leurs dangers. Du fait de la pr\xE9pond\xE9rance
+    du th\xE8me amoureux il est aussi appel\xE9 p\xE9jorativement \u201Croman \xE0
+    l\u2019eau de rose\u201D.\r\n\r\n<i>Pour aller plus loin:\nLa fin du XIXe si\xE8cle
+    voit se d\xE9velopper une v\xE9ritable crainte d\u2019une d\xE9gradation morale
+    de la population fran\xE7aise \xE0 cause du go\xFBt de celle-ci pour les romans.
+    En r\xE9action toute une litt\xE9rature d\u2019encadrement moral, voire de bien
+    pensance voit le jour. Le roman d\u2019amour qui \xE9l\xE8ve l\u2019\xE2me et
+    l\u2019esprit conna\xEEt alors beaucoup de succ\xE8s. Il cible majoritairement
+    un public f\xE9minin.</i>\r"

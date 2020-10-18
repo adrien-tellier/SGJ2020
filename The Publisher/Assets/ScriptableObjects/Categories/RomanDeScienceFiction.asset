@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935e7019959a9fd4c8881eb56a964506, type: 3}
+  m_Name: RomanDeScienceFiction
+  m_EditorClassIdentifier: 
+  Name: Roman de Science-Fiction
+  Description: "Le roman de science fiction d\xE9crit des situations et des \xE9v\xE9nements
+    projet\xE9s dans un avenir plus ou moins proche. L\u2019univers imagin\xE9 repose
+    sur l\u2019exploitation et l\u2019extrapolation des donn\xE9es contemporaines
+    et des d\xE9veloppements envisageables des sciences et des techniques. \r\n\r\n<i>Pour
+    aller plus loin:\nIl y a deux versants de la science fiction : l\u2019un, dans
+    la lign\xE9e du positivisme \xE9claire sous un jour positif le futur. Mais il
+    y a une part plus noire dans la lign\xE9e de Frankenstein ; la science n'est
+    plus seulement une promesse de voyages et de lendemains qui chantent, elle peut
+    bricoler les corps et mettre l'humain en p\xE9ril. La science fiction prend ainsi
+    la forme d\u2019une sombre proph\xE9tie. La peur, partie du corps humain, se
+    communique aussi au corps social.</i>\r"

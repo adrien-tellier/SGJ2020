@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935e7019959a9fd4c8881eb56a964506, type: 3}
+  m_Name: RomanAventure
+  m_EditorClassIdentifier: 
+  Name: Roman d'aventure
+  Description: "Le roman d\u2019aventures met particuli\xE8rement l'accent sur l'action
+    en multipliant les p\xE9rip\xE9ties. Le h\xE9ros est plut\xF4t masculin et jeune.
+    L\u2019int\xE9r\xEAt dramatique y est premier avant m\xEAme la vraisemblance. 
+    Le roman d\u2019aventures multiplie les personnages secondaires (g\xE9n\xE9ralement
+    unidimensionnels) qui sont l\u2019occasion de l\u2019intrigue. Il fait bien souvent
+    r\xE9f\xE9rence \xE0 une r\xE9alit\xE9 aussi bien historique que g\xE9ographique
+    (souvent exotique). Bien souvent il met en oeuvre une vision manich\xE9enne du
+    monde qui divise le personnel romanesque entre bons et m\xE9chants. \r\n\r\n<i>Pour
+    aller plus loin:\nIl y a une grande proximit\xE9 entre le roman d\u2019aventures
+    et le roman policier. la focales permettant de les distinguer : dans le cadre
+    d\u2019oeuvres o\xF9 l\u2019auteur d\xE9place l'int\xE9r\xEAt du lecteur vers
+    le criminel l'aventure l'emporte sur l'\xE9nigme. </i>\r"
